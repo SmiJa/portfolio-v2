@@ -5,7 +5,7 @@
 		box-sizing: border-box;
 		padding: 0;
 		margin: 0;
-		font-family: 'robotoregular';
+		font-family: 'Arial';
 	}
 	
 	.container {
@@ -13,6 +13,18 @@
 		max-width: 1200px;
 		margin: auto;
 		padding: 0 10px;
+	}
+
+	.sr-only {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+		border-width: 0;
 	}
 	
 	/* SITE HEADER SETTINGS
@@ -101,7 +113,6 @@
 	}
 	
 	#main p {
-		font-family: 'Bowlby One SC';
 		color: #e3d9d8;
 		text-align: center;
 	}
@@ -256,7 +267,7 @@
 	
 	.gallery {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
 		gap: 20px;
 	}
 	
@@ -408,8 +419,21 @@
 		filter: grayscale(1) ;
 		border-radius: 5px;
 	}
+
+	.about-info p {
+		width: 75%;
+		margin: auto;
+		text-align: justify;
+		padding-bottom: 40px;
+	}
 	
 	.skills {
 		margin: 10px;
 		text-align: center;
+	}
+
+	.skills ul {
+		column-count: 3;
+		margin: auto;
+		list-style-type: none;
 	}

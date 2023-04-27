@@ -61,26 +61,5 @@ let modalInfo = [
     "imgAlt": "My Morning Jacket (Fake Poster)",
     "year": 2013,
     "tools": ["Photoshop"]
-  },
-  {
-    "id": 10,
-    "imgSrc": "./../images/lg/Magic_Box_LG.png",
-    "imgAlt": "Magic Box",
-    "year": 2021,
-    "tools": ["Afinity Photo", "JavaScript", "CSS"]
-  },
-  {
-    "id": 11,
-    "imgSrc": "./../images/lg/Decider_LG.png",
-    "imgAlt": "Decidr",
-    "year": 2021,
-    "tools": ["JavaScript", "CSS"]
-  },
-  {
-    "id": 12,
-    "imgSrc": "./../images/lg/Haunted_House_Game_LG.png",
-    "imgAlt": "The Haunted House Game",
-    "year": 2021,
-    "tools": ["CSS", "JavaScript"]
   }
   ]
